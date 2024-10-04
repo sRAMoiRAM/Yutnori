@@ -61,9 +61,14 @@ button {
     background-color: lightcoral; /* Light salmon color for corners */
 }
 
-/* Side fields styling */
-.circle-field.side {
+/* Normal fields styling */
+.circle-field.normal {
     background-color: white; /* White color for side fields */
+}
+
+/* Center fields styling */
+.circle-field.center {
+    background-color: rgb(128, 240, 162); /* Light salmon color for corners */
 }
 
 /* Media query for smaller screens */
