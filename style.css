@@ -28,9 +28,10 @@ button {
 
 /* Left section styling */
 .left-section {
+    position: relative; /* Make this section the positioning context */
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 6 equal columns for square layout */
-    grid-template-rows: repeat(7, 1fr); /* 6 equal rows for square layout */
+    grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
+    grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     gap: 20px; /* Spacing between circles */
     padding: 20px;
     background-color: #f9f9f9; /* Light background for contrast */
@@ -66,9 +67,10 @@ button {
 
 /* Center fields styling */
 .circle-field.center {
+    position: absolute; /* Absolutely position the button */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
     background-color: rgb(128, 240, 162); /* Light salmon color for corners */
-    gap: 0px; /* Spacing between circles */
-    padding: 0px;
 }
 
 /* Media query for smaller screens */
