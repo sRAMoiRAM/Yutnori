@@ -2,7 +2,7 @@
 const button = document.getElementById('colorSwitcher');
 
 // Define an array of colors to switch between
-const colors = ['#3498db', '#2ecc71', '#f1c40f', '#e74c3c', '#9b59b6'];
+const colors = ['#c92d3a', '#00469e', '#ffffff', '#000000'];
 
 // Keep track of the current color index
 let currentColorIndex = 0;
