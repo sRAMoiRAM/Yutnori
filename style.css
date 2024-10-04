@@ -81,8 +81,6 @@ button {
 /* Arrow added to a specific grid item */
 .grid-item.arrow::after {
     content: '';
-    position: absolute;
-    bottom: 10px;  /* Adjust to position the arrow */
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
