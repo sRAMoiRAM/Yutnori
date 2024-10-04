@@ -50,8 +50,8 @@ button {
 
 /* Styling for each circle field */
 .circle-field {
-    width: 100%;   /* Fill full width of grid cell */
-    height: 100%;  /* Fill full height of grid cell */
+    width: 10%;   /* Fill full width of grid cell */
+    height: 10%;  /* Fill full height of grid cell */
     /*border-radius: 50%; /* Makes it a circle */
     border: 2px solid black; /* Thin black border */
 }
