@@ -30,6 +30,7 @@ button {
 .left-section {
     position: relative; /* Make this section the positioning context */
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     align-items: center;
@@ -40,7 +41,7 @@ button {
 /* Right section styling */
 .right-section {
     padding: 20px;
-    background-color: #fff; /* Background color for the right section */
+    background-color: #e4d298; /* Background color for the right section */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,17 +50,15 @@ button {
 
 /* Styling for each circle field */
 .circle-field {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Makes it a circle */
+    width: 100%;   /* Fill full width of grid cell */
+    height: 100%;  /* Fill full height of grid cell */
+    /*border-radius: 50%; /* Makes it a circle */
     border: 2px solid black; /* Thin black border */
 }
 
 /* Corner fields styling */
 .circle-field.corner {
     background-color: lightcoral; /* Light salmon color for corners */
-    justify-content: center;
-    align-items: center;
 }
 
 /* Normal fields styling */
