@@ -29,7 +29,7 @@ button {
 /* Left section styling */
 .left-section {
     position: relative; /* Make this section the positioning context */
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     align-items: center;
@@ -58,6 +58,9 @@ button {
 /* Corner fields styling */
 .circle-field.corner {
     background-color: lightcoral; /* Light salmon color for corners */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the field precisely */
 }
 
 /* Normal fields styling */
@@ -67,11 +70,11 @@ button {
 
 /* Center fields styling */
 .circle-field.center {
-    position: absolute; /* Absolutely position the button */
+    position: absolute; /* Absolutely position the field */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center the button precisely */
-    background-color: rgb(128, 240, 162); /* Light salmon color for corners */
+    transform: translate(-50%, -50%); /* Center the field precisely */
+    background-color: rgb(210, 61, 255); 
 }
 
 /* Media query for smaller screens */
