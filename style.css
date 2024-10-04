@@ -14,7 +14,6 @@ button {
 
 /* Basic reset */
 * {
-    margin: 10px;
     padding: 10;
     box-sizing: border-box;
 }
