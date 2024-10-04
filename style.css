@@ -69,6 +69,7 @@ button {
     position: absolute; /* Absolutely position the button */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the button precisely */
     background-color: rgb(128, 240, 162); /* Light salmon color for corners */
 }
 
