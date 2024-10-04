@@ -32,6 +32,8 @@ button {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
+    align-items: center;
+    justify-content: center;
     gap: 20px; /* Spacing between circles */
     background-color: #f9f9f9; /* Light background for contrast */
 }
