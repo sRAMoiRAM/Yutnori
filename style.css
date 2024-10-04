@@ -30,12 +30,14 @@ button {
 /* Left section styling */
 .left-section {
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(13, 1fr); /* 6 equal columns for square layout */
-    grid-template-rows: repeat(13, 1fr); /* 6 equal rows for square layout */
+    gap: 1px;
+    grid-template-columns: 
+        1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr; /* Alternating large (1fr) and small (0.5fr) columns */
+    grid-template-rows: 
+        1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr; /* Alternating large (1fr) and small (0.5fr) rows */
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0; /* Light background for contrast */
+    background-color: #e0e0e0; /* Light background for contrast */
     border: 4px solid dimgray;
     border-radius: 16px;
 }
