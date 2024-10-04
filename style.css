@@ -14,8 +14,8 @@ button {
 
 /* Basic reset */
 * {
-    margin: 5;
-    padding: 5;
+    margin: 10;
+    padding: 10;
     box-sizing: border-box;
 }
 
@@ -23,13 +23,14 @@ button {
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr; /* 2/3 for left, 1/3 for right */
-    height: 100vh; /* Full viewport height */
+    height: 80vh; /* Full viewport height */
 }
 
 /* Left section styling */
 .left-section {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(5, 1fr); /* 5 equal columns for square layout */
+    grid-template-rows: repeat(5, 1fr); /* 5 equal rows for square layout */
     gap: 20px; /* Spacing between circles */
     padding: 20px;
     justify-items: center; /* Center circles horizontally */
@@ -49,11 +50,19 @@ button {
 
 /* Styling for each circle field */
 .circle-field {
-    width: 100px;
-    height: 100px;
-    background-color: #4CAF50; /* Circle color */
-    border-radius: 50%; /* Makes it a circle */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 50px;
+    height: 50px;
+    border: 2px solid black; /* Thin black border */
+}
+
+/* Corner fields styling */
+.circle-field.corner {
+    background-color: lightcoral; /* Light salmon color for corners */
+}
+
+/* Side fields styling */
+.circle-field.side {
+    background-color: white; /* White color for side fields */
 }
 
 /* Media query for smaller screens */
@@ -63,12 +72,12 @@ button {
     }
 
     .left-section {
-        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Adjust circle size for smaller screens */
+        grid-template-columns: repeat(5, 1fr); /* Keep 5 columns even on smaller screens */
     }
 
     .circle-field {
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
     }
 }
 
