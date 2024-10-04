@@ -33,7 +33,7 @@ button {
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     background-color: #f9f9f9; /* Light background for contrast */
 }
 
@@ -68,8 +68,6 @@ button {
 /* Center fields styling */
 .circle-field.center {
     position: absolute; /* Absolutely position the button */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Center the button precisely */
     background-color: rgb(128, 240, 162); /* Light salmon color for corners */
 }
