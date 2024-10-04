@@ -35,7 +35,7 @@ button {
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     background-color: #f9f9f9; /* Light background for contrast */
     border: 2px dimgray;
     border-radius: 16px;
