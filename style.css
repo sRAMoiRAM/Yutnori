@@ -33,8 +33,6 @@ button {
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     gap: 20px; /* Spacing between circles */
     padding: 20px;
-    justify-items: center; /* Center circles horizontally */
-    align-items: center; /* Center circles vertically */
     background-color: #f9f9f9; /* Light background for contrast */
 }
 
