@@ -32,9 +32,9 @@ button {
     display: grid;
     gap: 1px;
     grid-template-columns: 
-        1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr; /* Alternating large (1fr) and small (0.5fr) columns */
+        1fr 0.5fr 1fr 0.5fr 1fr 0.25fr 0.5fr 0.25fr 1fr 0.5fr 1fr 0.5fr 1fr; /* Alternating large (1fr) and small (0.5fr) columns */
     grid-template-rows: 
-        1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr; /* Alternating large (1fr) and small (0.5fr) rows */
+        1fr 0.5fr 1fr 0.5fr 1fr 0.25fr 0.5fr 0.25fr 1fr 0.5fr 1fr 0.5fr 1fr; /* Alternating large (1fr) and small (0.5fr) rows */
     align-items: center;
     justify-content: center;
     background-color: #e0e0e0; /* Light background for contrast */
