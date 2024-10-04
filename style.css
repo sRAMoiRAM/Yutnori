@@ -24,6 +24,7 @@ button {
     display: grid;
     grid-template-columns: 2fr 1fr; /* 2/3 for left, 1/3 for right */
     height: 80vh; /* Full viewport height */
+    column-gap: 20px;
 }
 
 /* Left section styling */
@@ -36,8 +37,8 @@ button {
     align-items: center;
     justify-content: left;
     background-color: #f9f9f9; /* Light background for contrast */
-    border: 2px;
-    border-radius: 8px;
+    border: 2px dimgray;
+    border-radius: 16px;
 }
 
 /* Right section styling */
@@ -48,11 +49,13 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    border: 2px dimgray;
+    border-radius: 16px;
 }
 
 /* Styling for each circle field */
 .circle-field {
-    height: 100%;  /* Fill full height of grid cell */ 
+    width: 50;  /* Fill full height of grid cell */ 
     aspect-ratio: 1 / 1; /* Maintain width = height */
     border-radius: 50%; /* Makes it a circle */
     border: 2px solid black; /* Thin black border */
