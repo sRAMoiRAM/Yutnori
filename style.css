@@ -78,6 +78,18 @@ button {
     background-color: rgb(61, 242, 255); 
 }
 
+/* Arrow added to a specific grid item */
+.grid-item.arrow::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;  /* Adjust to position the arrow */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid black; /* Creates the arrow pointing up */
+}
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .container {
