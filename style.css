@@ -67,6 +67,8 @@ button {
 /* Center fields styling */
 .circle-field.center {
     background-color: rgb(128, 240, 162); /* Light salmon color for corners */
+    gap: 0px; /* Spacing between circles */
+    padding: 0px;
 }
 
 /* Media query for smaller screens */
