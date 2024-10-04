@@ -57,6 +57,7 @@ button {
 .circle-field {
     width: 50px;  /* Fill full height of grid cell */ 
     aspect-ratio: 1 / 1; /* Maintain width = height */
+    justify-self: center;  /* Center the item horizontally in the grid cell */
     border-radius: 50%; /* Makes it a circle */
     border: 2px solid black; /* Thin black border */
 }
