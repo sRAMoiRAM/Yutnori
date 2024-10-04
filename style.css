@@ -5,7 +5,7 @@ body {
 }
 
 button {
-    padding: 10px 10px;
+    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border: none;
@@ -15,7 +15,7 @@ button {
 /* Basic reset */
 * {
     margin: 10;
-    padding: 10;
+    padding: 10px;
     box-sizing: border-box;
 }
 
