@@ -10,11 +10,12 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 16px; /* Rounded corners */
+    background-color: khaki
 }
 
 /* Basic reset */
 * {
-    padding: 10;
+    padding: 0;
     box-sizing: border-box;
 }
 
