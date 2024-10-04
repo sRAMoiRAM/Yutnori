@@ -29,7 +29,6 @@ button {
 
 /* Left section styling */
 .left-section {
-    position: relative; /* Make this section the positioning context */
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
@@ -74,10 +73,6 @@ button {
 
 /* Center fields styling */
 .circle-field.center {
-    position: absolute; /* Absolutely position the field */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the field precisely */
     background-color: rgb(61, 242, 255); 
 }
 
