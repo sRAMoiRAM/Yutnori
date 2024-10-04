@@ -97,7 +97,7 @@ button {
     border-bottom: 15px solid black; /* Creates the arrow pointing up */
 }
 /* Arrow added to a specific grid item */
-.grid-item.arrowE::after {
+.grid-item.arrowE::before {
     content: '';
     width: 0;
     height: 0;
@@ -115,7 +115,7 @@ button {
     border-top: 10px solid black; /* Creates the arrow pointing up */
 }
 /* Arrow added to a specific grid item */
-.grid-item.arrowSE::after {
+.grid-item.arrowSE::before {
     content: '';
     width: 0;
     height: 0;
