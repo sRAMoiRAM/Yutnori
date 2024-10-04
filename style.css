@@ -33,7 +33,6 @@ button {
     grid-template-columns: repeat(6, 1fr); /* 6 equal columns for square layout */
     grid-template-rows: repeat(6, 1fr); /* 6 equal rows for square layout */
     gap: 20px; /* Spacing between circles */
-    padding: 20px;
     background-color: #f9f9f9; /* Light background for contrast */
 }
 
