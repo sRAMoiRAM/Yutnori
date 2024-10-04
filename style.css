@@ -58,8 +58,8 @@ button {
 /* Corner fields styling */
 .circle-field.corner {
     background-color: lightcoral; /* Light salmon color for corners */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
+    justify-content: center;
+    align-items: center;
     transform: translate(-50%, -50%); /* Center the field precisely */
 }
 
@@ -71,10 +71,8 @@ button {
 /* Center fields styling */
 .circle-field.center {
     position: absolute; /* Absolutely position the field */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Center the field precisely */
-    background-color: rgb(210, 61, 255); 
+    background-color: rgb(61, 242, 255); 
 }
 
 /* Media query for smaller screens */
