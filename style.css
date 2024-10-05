@@ -58,8 +58,6 @@ button {
 .circle-field {
     width: 50px;  /* Fill full height of grid cell */ 
     aspect-ratio: 1 / 1; /* Maintain width = height */
-    text-align: center;
-    text-justify: center;
     align-self: center;
     justify-self: center;  /* Center the item horizontally in the grid cell */
     border-radius: 50%; /* Makes it a circle */
@@ -69,6 +67,8 @@ button {
 /* Corner fields styling */
 .circle-field.corner {
     background-color: lightcoral; /* Light salmon color for corners */
+    text-align: center;
+    text-justify: center;
 }
 
 /* Normal fields styling */
