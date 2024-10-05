@@ -58,6 +58,7 @@ button {
 .circle-field {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 50px;  /* Fill full height of grid cell */ 
     aspect-ratio: 1 / 1; /* Maintain width = height */
     align-self: center;
