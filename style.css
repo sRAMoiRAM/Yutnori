@@ -78,59 +78,6 @@ button {
     background-color: rgb(61, 242, 255); 
 }
 
-/* Arrow added to a specific grid item */
-.grid-item.arrowS::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid black; /* Creates the arrow pointing up */
-}
-/* Arrow added to a specific grid item */
-.grid-item.arrowN::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid black; /* Creates the arrow pointing up */
-}
-/* Arrow added to a specific grid item */
-.grid-item.arrowE::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid black; /* Creates the arrow pointing up */
-}
-/* Arrow added to a specific grid item */
-.grid-item.arrowW::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 15px solid black; /* Creates the arrow pointing up */
-}
-/* Arrow added to a specific grid item */
-.grid-item.arrowSE::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-right: 5px solid transparent;
-    border-bottom: 15px solid black; /* Creates the arrow pointing up */
-}
-/* Arrow added to a specific grid item */
-.grid-item.arrowSW::after {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-bottom: 15px solid black; /* Creates the arrow pointing up */
-}
-
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
