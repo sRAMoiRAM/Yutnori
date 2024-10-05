@@ -2,7 +2,7 @@
 const button = document.getElementById('colorSwitcher');
 
 // Define an array of colors to switch between
-const colors = ['#3498db', '#2ecc71', '#f1c40f', '#e74c3c', '#9b59b6'];
+const colors = ['#c92d3a', '#eeeeee', '#00469e', '#000000'];
 
 // Keep track of the current color index
 let currentColorIndex = 0;
@@ -11,7 +11,7 @@ let currentColorIndex = 0;
 button.addEventListener('click', function() {
     // Change the background color of the body
     document.body.style.backgroundColor = colors[currentColorIndex];
-    
+    document.body.style.color = colors[(currentColorIndex + 1) % colors.length];
     // Increment the color index, loop back to the start if at the end
     currentColorIndex = (currentColorIndex + 1) % colors.length;
 });
